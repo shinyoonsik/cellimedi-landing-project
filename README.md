@@ -32,6 +32,5 @@ expo start
 # 당면한 Issue
 - 안드로이드 스튜디오를 활용하여 랜딩할때, html내의 컨텐츠들이 모바일 화면보다 크면 expo실행이 강제 종료됨
 - Topnavigator구현시, 클릭이벤트가 발생한 버튼의 색이 풀려버리는 에러발생. 
-  문제원인: stack navigation의 원리를 이해하지 못해 발생한 것임. stack navigation안의 screen은 각각 state를 독립적으로 관리함. 따라서, navigation.navigate()로 화면 전환을 한 경우, 매개변수를 
-           설정하지 않으면 state가 유지되지 않는다.
-  해결방법: 독립적인 코드작성# cellimedi_landing-project
+  - 문제원인: stack navigation의 원리를 이해하지 못해 발생한 것임. stack navigation안의 screen은 각각 state를 독립적으로 관리함. 따라서, navigation.navigate()로 화면 전환을 한 경우, 매 개변수를 설정하지 않으면 state가 유지되지 않는다.
+  - 해결방법: 독립적인 코드작성# cellimedi_landing-project
